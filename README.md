@@ -31,7 +31,7 @@ composer require --prefer-dist e282486518/yii2-console-migration "*"
 
 ```php
 'controllerMap' => [
-    'migrates' => [
+    'migrate' => [
         'class' => 'e282486518\migration\ConsoleController',
     ],
 ],
